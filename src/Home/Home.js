@@ -1,4 +1,5 @@
 import './Home.css'
+import { Footer } from '../shared/Footer/Footer'
 export function Home(){
     return(
         <>
@@ -55,6 +56,7 @@ export function Home(){
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }

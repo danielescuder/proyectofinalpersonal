@@ -43,14 +43,29 @@ export function Home(){
             <section>
                 <div class="container-fluid">
                     <div class="row">
+                        <div class="col-12">
+                            <h1>NOTICIAS</h1>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-12 col-md-4">
                         <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/crew1.jpg?alt=media&token=a32b2df6-db4d-4e97-9e30-5e0cf1420910" alt="" class="img-fluid w-100"/>
+                        <p>"El Concierto Radiónica es lo más importante del año" Crew Peligrosos.
+                            Este crew trabaja desde 1999 en el barrio Aranjuez de Medellín, su casa, el lugar que los inspira no solo a llevar su propesta de hip hop fuera de esa ciudad, sino que los impulsa a la búsqueda de alternativas artísticas contra la violencia.</p>
                         </div>
                         <div class="col-12 col-md-4">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/crew3.jpg?alt=media&token=297bc6bc-36a3-4e26-b45a-fdb445ac3bf9" alt="" class="img-fluid w-100"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/marcapasos.jpg?alt=media&token=5429c718-f4d6-419a-8d3c-bf6a4174481d" alt="" class="img-fluid w-100"/>
+                        <p>15 de Marzo lanzamiento de Marcapasos, álbum sinfónico de los #CrewPeligrosos con un gran espectáculo en el 
+                            @TMETROPOLITANO bajo la dirección musical @juanchosargentocon @Filarmed</p>
                         </div>
                         <div class="col-12 col-md-4">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/crew4.jpg?alt=media&token=1424fc9a-95c5-4bf0-821a-c7b2afe68c78" alt="" class="img-fluid w-100"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/bombo.jpg?alt=media&token=e372b777-d653-4d11-8e57-de05376e6a20" alt="" class="img-fluid w-100"/>
+                        <p>Luego de estar haciendo “Estrapgos” en Bogotá, la nave de Crew Peligrosos en el 2015 extrajo al legendario Mad Lion desde New York para vivir la experiencia del barrio Aranjuez en Medellín. “Money don´t change me”, como dice el coro y es titulada esta canción, revive los momentos que han pasado los Crew en sus giras, la manera como viven el barrio y como sus logros los conectan más con su comunidad y el parche que los rodea.
+
+ 
+
+La gran riqueza que tienen estos dos artistas es su amor por el barrio, por sus familias y por la música, algo que el dinero no cambiará jamás.</p>
                         </div>
 
                     </div>

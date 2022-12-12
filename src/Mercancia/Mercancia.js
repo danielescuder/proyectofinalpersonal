@@ -1,4 +1,16 @@
+import { Footer } from "../shared/Footer/Footer"
+import { useNavigate } from "react-router-dom"
 export function Mercancia(){
+    //activamos la navegacion entre componentes
+    //cuando se de un evento
+    let navegante=useNavigate()
+
+    //que hago cuando se de el evento
+    function detectarEvento(productoSeleccionado){
+        navegante("/Ampliarinfo",{
+            state:{productoSeleccionado}
+        })
+    }
 
     let titulo="Productos de la banda..."
     let Productos=[
@@ -36,21 +48,27 @@ export function Mercancia(){
     return(
         <>
             <h1>{titulo}</h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-3 g-5">
                     {
-                        Productos.map(function(producto){
+                        Productos.map(function(producto,id){
                             return(
-                                <>
-                                    <div class="col">
-                                        <div class="card h-100 shadow">
-                                            <img src={producto.foto} alt="img" class="h-100 img-fluid w-100"/>
+                                <div key={id}>
+                                    <div className="col">
+                                        <div className="card h-100 shadow">
+                                            <img src={producto.foto} alt="img" className="h-100 img-fluid w-100"/>
                                             <h1>{producto.nombre}</h1>
                                             <h3>{"$"+producto.precio}</h3>
+
+                                            <button className="btn btn-primary mx-5 my-3" onClick={
+                                                function(){
+                                                    detectarEvento(producto)
+                                                }
+                                            }>Ampliar</button>
                                         </div>
                                        
                                     </div>
-                                </>
+                                </div>
                             )
                         })
                     }

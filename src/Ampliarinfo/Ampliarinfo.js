@@ -29,6 +29,10 @@ export function AmpliarInfo(){
 
                     <p>Devolucion gratis</p>
                     <p>30 dias para reenbolso</p>
+                    <br/>
+                    <p className="text-successe fw-bold">{producto.especificaciones}</p>
+
+
 
 
                 </div>

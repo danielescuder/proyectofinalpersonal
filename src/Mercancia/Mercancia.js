@@ -23,13 +23,13 @@ export function Mercancia(){
         {
             nombre:"Chompa Básica",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/chompa.jpg?alt=media&token=c808da55-18d9-436c-90f1-57e1e197d1db",
-            precio:150000
+            precio:150000,
             especificaciones:"chompa CREW PELIGROSOS LOGO"
         },
         {
             nombre:"Chompa Arapjuez 1999",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/chompa00.jpg?alt=media&token=decba937-18ad-4952-b5d5-c6c47a40e30e",
-            precio:150000 
+            precio:150000,
             especificaciones:"chompa años de inicio de CREW PELIGROSOS"
         },
         {
@@ -41,15 +41,15 @@ export function Mercancia(){
         {
             nombre:"Chompa Escudo 1999",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/chompa03.jpg?alt=media&token=803706ed-a1ee-46a3-b273-a68535cb0453",
-            precio:150000 
+            precio:150000,
             especificaciones:"chompa del escudero y año de CREW PELIGROSOS"
         },
         {
             nombre:"Chompa Estrapgos",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/chompa04.jpg?alt=media&token=8ef9a743-ee56-4459-a6f9-43e3c660e21b",
-            precio:150000 
+            precio:150000,
             especificaciones:"chompa del nombre del album ESTRAGOS "
-        },
+        }
     ]
     return(
         <>

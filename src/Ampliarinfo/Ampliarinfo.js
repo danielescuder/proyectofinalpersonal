@@ -28,7 +28,7 @@ export function AmpliarInfo(){
                     <img class="bi bi-arrow-clockwise mt-5fs-1 text-success" src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/descargar.png?alt=media&token=6dfa18e5-2c82-4f4b-9bc3-70082e3737af" alt=""></img>  
 
                     <p>Devolucion gratis</p>
-                    <p>30 dias para reenbolso</p>
+                    <p>30 dias para reembolso</p>
                     <br/>
                     <p className="text-successe fw-bold">{producto.especificaciones}</p>
 

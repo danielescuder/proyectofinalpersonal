@@ -10,23 +10,26 @@ export function Integrantes(){
             nombre:"Cristian Montoya (Rat Race)",
             foto:"https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/rat-race-640x280.jpg?alt=media&token=b4b8d5a9-fc24-440a-9ab2-3af3359bead0",
             biografia:"Cristian Montoya conocido como Rat The Beats o Rat Race es la banda sonora de #MEDEG, siempre indagando en nuestros, mares, selvas y bosques para Samplear sonidos originarios de nuestra madre Africa, mezclando la densidad de la calle generando atmosferas que solo se pueden sentir en el silencio de los problemas que esconde Medellín, la ciudad de la eterna primavera."
-        },
+        }
         
     ]
     return(
         <>
             <h1>{titulo2}</h1>
             <div className="container">
-                <div className="row row-cols-1 row-cols-md-3 g-5">
+                <div className="row row-cols-1 row-cols-md-1 g-5">
                     {
                         integrantes.map(function(integrante){
                             return(
                                 <>
-                                    <div className="col">
-                                        <div className="card h-100 shadow">
-                                            <img src={integrantes.foto} alt="img" className="h-100 img-fluid w-100"/>
-                                            <h1>{integrantes.nombre}</h1>
-                                            <h3>{integrantes.biografia}</h3>
+                                    
+                                    <div className="row my-5">
+                                        <div className="col-6 card h-100 shadow ">
+                                            <img src={integrante.foto} alt="img" className="h-100 img-fluid w-100"/>
+                                        </div>
+                                        <div className="col-6 text-center my-5">
+                                            <h1>{integrante.nombre}</h1>
+                                            <h3>{integrante.biografia}</h3>
                                         </div>
                                        
                                     </div>

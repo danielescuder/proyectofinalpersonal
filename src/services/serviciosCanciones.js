@@ -7,13 +7,13 @@ export async function serviciosCancionesTop(){
     //confirgurar la peticion de envio hacia el servidor
     const PETICION={
         method:"GET",
-        headers:{Authorization:"Bearer BQCsgvVW3VhV_ShREKmwMjjXTi8zpAaxbweW32it9wPusx1heZCCPetvTKoQC4rWuaBe23xzqvlKcd8Ksx1gol8NuCEls0OKf71KYw5pojZPPxustRlKmAGZB3daA3dE-k9wLostSQt_7dEH13A_1R59UNbWygh1bATc6duqvYZUxbqnRkKnrVZISFW_E_JqplE"}
+        headers:{Authorization:" Bearer BQDj_OXpG8mYVO8wPa-SWLZFSQ9Be-AS1oKTaE0f_omr1U7KC_g7DnVHTsJ8_DPYuEl4pBTMAjxuSMCsEkJq9VXsftJ9Q1TjBnECcboswlcfwzcKSRnCFM5yjBF20oXT5t1HpwudXAZR8RjlXu9ijWdih1_UxVqR2UfYW2e4lUJEJ1MAkdMqQ5s_TEzNZtYJjAI"}
     }
-    //3.nos vamos pal restaurante
+    //3.nos vamos para el restaurante
     //consumimos el api
     
     let respuesta=await fetch(URL,PETICION)
     let canciones=await respuesta.json()
 
-    console.log(canciones)
+    return(canciones)
 }

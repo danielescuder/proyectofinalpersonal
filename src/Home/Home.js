@@ -21,19 +21,53 @@ export function Home(){
                             <img src="https://firebasestorage.googleapis.com/v0/b/spotydseg.appspot.com/o/peligrosos.jpg?alt=media&token=ccc70ee8-118d-4c89-a94e-f6b978f2a57a" alt=""></img>
 
                         </div>
-                        <div className="col-12 col-md-4">
-                            <i className="bi bi-vinyl-fill fs-1">
-                                <div>
-                                    <h1>Medellín</h1>
-                                    <h2>dic 2</h2>
+                        <div className="col-12 col-md-4 border-start align-self-center bg-dark text-white p-5">
+                            <div className="row">
+                                <div className="col-12 text-center">
+                                    <h1 className="fw-bold">Proximos Conciertos</h1>
+                                    <hr></hr>
                                 </div>
-                            </i>
-                            <i className="bi bi-vinyl-fill fs-1"></i>
-                            <i className="bi bi-vinyl-fill fs-1"></i>
-                            <i className="bi bi-vinyl-fill fs-1"></i>
-                        </div>
-                        <div>
-                            
+                            </div>
+                            <div className="row">
+                                <div className="col-3 text-end">
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
+                                </div>
+                                <div className="col-9 text-start align-self-center">
+                                    <h3 className="fw-bold">Medellin</h3>
+                                    <h5>junio 15</h5>
+                                </div>
+                            </div>  
+
+                            <div className="row">
+                                <div className="col-3 text-end">
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
+                                </div>
+                                <div className="col-9 text-start align-self-center">
+                                    <h3 className="fw-bold">Cali</h3>
+                                    <h5>julio 3</h5>
+                                </div>
+                            </div>  
+
+                            <div className="row">
+                                <div className="col-3 text-end">
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
+                                </div>
+                                <div className="col-9 text-start align-self-center">
+                                    <h3 className="fw-bold">Bogota</h3>
+                                    <h5>julio 6</h5>
+                                </div>
+                            </div>  
+
+                            <div className="row">
+                                <div className="col-3 text-end">
+                                 <i className="bi bi-vinyl-fill icono fw-bold"></i>
+                                </div>
+                                <div className="col-9 text-start align-self-center">
+                                    <h3 className="fw-bold">Barranquilla</h3>
+                                    <h5>julio 12</h5>
+                                </div>
+                            </div>  
+
                         </div>
 
                     </div>

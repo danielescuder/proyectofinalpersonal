@@ -39,12 +39,14 @@ export function Musica(){
                     <div className="row row-cols-1 row-cols-md-3 g-5">
                         {
                             canciones.tracks.map(function(cancion){
+                                console.log(cancion)
                                  return(
-                            
+                                    
                                     <div className="card h-100 shadow">
                                         <h1>{cancion.name}</h1>
                                         <audio controls src={cancion.preview_url}></audio>
                                         <img src={cancion.album.images[0].url}></img>
+                                        <h5>popularidad: {cancion.popularity}</h5>
                                     </div>
                             
                                     )
